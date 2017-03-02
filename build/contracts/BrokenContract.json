@@ -1,0 +1,66 @@
+{
+  "contract_name": "BrokenContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "creator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "fixer",
+          "type": "address"
+        }
+      ],
+      "name": "execute",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "broken",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "canExecuteArbitraryCode",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b60008054600160ff199091161761010060a860020a03191661010033600160a060020a0316021790555b5b61016c806100446000396000f300606060405263ffffffff60e060020a60003504166302d05d3f81146100455780634b64e4921461006e5780637fb1ad6214610089578063bf742d56146100aa575b610000565b34610000576100526100cb565b60408051600160a060020a039092168252519081900360200190f35b3461000057610087600160a060020a03600435166100df565b005b346100005761009661010b565b604080519115158252519081900360200190f35b3461000057610096610114565b604080519115158252519081900360200190f35b6000546101009004600160a060020a031681565b6100e7610114565b15156100f257610000565b36600060003760006000366000846127105a03f4005b50565b60005460ff1681565b6000805460ff16801561013a575060005433600160a060020a0390811661010090920416145b90505b905600a165627a7a72305820cd821f2df95c17c2cada7cc32b3cc429469e34b26a4bb33fe195e139aab54c220029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1488454375326
+}

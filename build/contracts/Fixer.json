@@ -1,0 +1,61 @@
+{
+  "contract_name": "Fixer",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "creator",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "fixer",
+          "type": "address"
+        }
+      ],
+      "name": "execute",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "broken",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "canExecuteArbitraryCode",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040525b60008054600160ff199091161761010060a860020a03191661010033600160a060020a0316021790555b5b61014e8061003f6000396000f300606060405263ffffffff60e060020a60003504166302d05d3f81146100455780634b64e4921461006e5780637fb1ad6214610089578063bf742d56146100aa575b610000565b34610000576100526100cb565b60408051600160a060020a039092168252519081900360200190f35b3461000057610087600160a060020a03600435166100df565b005b34610000576100966100ed565b604080519115158252519081900360200190f35b34610000576100966100f6565b604080519115158252519081900360200190f35b6000546101009004600160a060020a031681565b6000805460ff191690555b50565b60005460ff1681565b6000805460ff16801561011c575060005433600160a060020a0390811661010090920416145b90505b905600a165627a7a7230582089f54b03c80f0cb67e3664f067712034035759976de2d7ed4877ddbfee609ef50029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1488454375326
+}

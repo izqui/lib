@@ -13,7 +13,7 @@ module.exports = (deployer) => {
     .then(tf => {
       console.log('The factory: ', tf.address)
       fact = tf
-      return fact.upload(Basic.binary)
+      // return fact.upload(Basic.binary)
     })
     /*
     .then(() => fact.deploy("Basic"))
