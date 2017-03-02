@@ -1,5 +1,5 @@
 {
-  "contract_name": "LibInterface",
+  "contract_name": "ExampleLib",
   "abi": [
     {
       "constant": false,
@@ -37,7 +37,15 @@
       "type": "function"
     }
   ],
-  "networks": {},
+  "unlinked_binary": "0x6060604052346000575b6091806100176000396000f300606060405263ffffffff60e060020a600035041663372165f18114602c57806361b8ee69146047575b6000565b60356004356055565b60408051918252519081900360200190f35b6053600435602435605d565b005b80545b919050565b8082555b50505600a165627a7a7230582000d450ae9e563ec7cde2e7f1863ec931ca2a369a18e5f319a155bb49729819090029",
+  "networks": {
+    "15": {
+      "events": {},
+      "links": {},
+      "address": "0x02787e53c35bb581e5e12839506cf795d7bda243",
+      "updated_at": 1488308948961
+    }
+  },
   "schema_version": "0.0.5",
-  "updated_at": 1488359444671
+  "updated_at": 1488308948961
 }
